@@ -1,6 +1,9 @@
 // #include <Arduino.h>
 // #include <Wire.h>
 
+// #include <Adafruit_Sensor_Calibration.h>
+// #include <Adafruit_AHRS.h>
+
 // #define I2C_SDA 27
 // #define I2C_SCL 26
 
