@@ -77,12 +77,12 @@ void loop()
     return;
 #endif
 
-    // a, b, c, d, e = 0.9392358475850507 -0.3432725194523897 1.1342217466868487 -4.744984964639308 -1.2260721569674102
-    static float a = 0.9392358475850507;
-    static float b = -0.3432725194523897;
-    static float c = 1.1342217466868487;
-    static float d = -19.83709436463931;
-    static float e = 1.1180974430325896;
+    // a, b, c, d, e = 0.8997438084310719 0.4364184679753487 1.1317375086031287 -8.298640083858855 1.3939266028550261
+    static float a = 0.8997438084310719;
+    static float b = 0.4364184679753487;
+    static float c = 1.1317375086031287;
+    static float d = -21.590995883858856;
+    static float e = 9.817197302855027;
 
     float mag_x_corr = (mag.magnetic.x - d) * a - (mag.magnetic.y - e) * b;
     float mag_y_corr = ((mag.magnetic.x - d) * b + (mag.magnetic.y - e) * a) * c;
